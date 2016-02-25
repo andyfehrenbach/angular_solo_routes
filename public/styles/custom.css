@@ -1,10 +1,10 @@
 body {
-
+  height: 100vh;
 }
 nav {
   text-transform: uppercase;
   font-weight: bold;
-  height: 50px;
+  height: 7vh;
 }
 nav li{
   display: block;
@@ -21,6 +21,9 @@ nav li a:hover {
 
 nav ul {
   margin: 0;
+  font-size: 110%;
+    line-height: 17px;
+    letter-spacing: 1px;
 }
 
 nav li a {
@@ -34,7 +37,7 @@ h4{
 }
 
 main {
-  height: 81vh;
+  height: 88vh;
   background-color: #ddd;
   color: #fff;
 text-shadow: -1px 1px 6px #000;
@@ -44,8 +47,9 @@ a:hover {
   color: #222;
 }
 .foot {
-  margin: 1em .5em;
-  color: grey;
+  margin: 0em .5em;
+   color: grey;
+   height: 5vh;
 }
 
 h5{
@@ -54,10 +58,15 @@ h5{
 
 h2 {
   padding-left: .5em;
+
+}
+
+h2, h5 {
+  margin-bottom: 4rem;
 }
 
 .jumbo {
-    display: flex;
+  display: flex;
   align-items: flex-end;
   height: 100%;
 }
@@ -85,7 +94,7 @@ h2 {
 
 .cast {
   background: url("/images/cast.jpg"), no-repeat center center;
-  background-color: grey;
+  background-color: #ccc;
   background-blend-mode: multiply;
   background-size: cover;
 }
