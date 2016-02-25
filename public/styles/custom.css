@@ -3,7 +3,6 @@ body {
 }
 nav {
   text-transform: uppercase;
-  border-bottom: 2px solid #ddd;
   font-weight: bold;
   height: 50px;
 }
@@ -13,38 +12,81 @@ nav li{
   padding: 1em .25em;
 }
 
-nav li:hover {
-  text-decoration: underline;
+nav li a:hover {
+  padding: 0 5px 3px 0;
+  border-bottom: 3px solid #222;
 }
 
 nav ul {
   margin: 0;
 }
 
-
 nav li a {
   text-decoration: none;
   color: #222;
   font-weight: bold;
+  transition:all .1s;
 }
 h4{
   display: inline;
 }
 
 main {
-  height: 80vh;
+  height: 81vh;
   background-color: #ddd;
+  color: #fff;
+text-shadow: -1px 1px 6px #000;
 }
 
 a:hover {
-  color: #ddd;
+  color: #222;
 }
 .foot {
   margin: 1em .5em;
 }
 
+h5{
+  padding-right: .25em;
+}
 
-main {
-  display: flex;
+h2 {
+  padding-left: .5em;
+}
+
+.jumbo {
+    display: flex;
   align-items: flex-end;
+  height: 100%;
+}
+
+.mike {
+  background: url("/images/mike.jpg"), no-repeat center center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.donna {
+  background: url("/images/donna.jpg"), no-repeat center center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.harvey {
+  background: url("/images/harvey.jpg"), no-repeat center right;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.cast {
+  background: url("/images/cast.jpg"), no-repeat center center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.logo {
+  padding-left: 2em;
 }

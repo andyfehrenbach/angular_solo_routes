@@ -5,16 +5,17 @@ myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/home', {
             templateUrl: '/views/templates/home.html',
-            controller: 'HomeController'
         })
-        .when('/another', {
-            templateUrl: '/views/templates/another.html',
-            controller: 'AnotherController'
+        .when('/mike', {
+            templateUrl: '/views/templates/mike.html',
+        })
+        .when('/harvey', {
+            templateUrl: '/views/templates/harvey.html'
+        })
+        .when('/donna', {
+            templateUrl: '/views/templates/donna.html'
         })
         .otherwise({
             redirectTo: 'home'
         });
 }]);
-
-
-
