@@ -12,6 +12,8 @@ nav li{
   padding: 1em .25em;
 }
 
+
+
 nav li a:hover {
   padding: 0 5px 3px 0;
   border-bottom: 3px solid #222;
@@ -43,6 +45,7 @@ a:hover {
 }
 .foot {
   margin: 1em .5em;
+  color: grey;
 }
 
 h5{
