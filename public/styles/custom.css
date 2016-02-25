@@ -1,0 +1,50 @@
+body {
+
+}
+nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+  height: 50px;
+}
+nav li{
+  display: block;
+  margin: 0;
+  padding: 1em .25em;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  margin: 0;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+h4{
+  display: inline;
+}
+
+main {
+  height: 80vh;
+  background-color: #ddd;
+}
+
+a:hover {
+  color: #ddd;
+}
+.foot {
+  margin: 1em .5em;
+}
+
+
+main {
+  display: flex;
+  align-items: flex-end;
+}
